@@ -61,7 +61,7 @@ section .container{
     width: 320px;
     text-align: center;
     margin-top: 41px;
-    margin-left: auto;
+    margin-left: -70px;
     margin-right: auto;
     align-items: top;
     display: flex;
@@ -90,6 +90,7 @@ ul{
 li{
     margin-bottom: 18px;
     list-style: none;
+    width:315px;
 } 
 
 a{
@@ -123,7 +124,7 @@ a::before{
 a span{
     position: relative;
     z-index: 1;
-    width: 285px;
+    width: 320px;
     height: 20px;
     background-color: transparent;
 }
